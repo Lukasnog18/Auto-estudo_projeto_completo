@@ -1,20 +1,19 @@
 <template>
   <div>
     <Home />
+    <PostContatosForm />
+    <GetAllContatos />
+    <GetOneContato />
+    <DeleteContato />
   </div>
 </template>
 
-<script>
+<script setup>
 import Home from './views/Home.vue'
-
-export default {
-  
-
-  name: 'App',
-  components: {
-    Home
-  }
-}
+import PostContatosForm from './components/PostContatosForm.vue'
+import GetAllContatos from './components/GetAllContatos.vue';
+import GetOneContato from './components/GetOneContato.vue';
+import DeleteContato from './components/DeleteContato.vue'
 
 </script>
 
