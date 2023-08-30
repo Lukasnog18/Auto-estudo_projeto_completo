@@ -7,3 +7,9 @@
 <script setup>
     
 </script>
+
+<style>
+.home {
+    text-align: center;
+}
+</style>

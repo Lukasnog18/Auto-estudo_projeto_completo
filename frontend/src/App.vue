@@ -3,8 +3,8 @@
     <Home />
     <PostContatosForm />
     <GetAllContatos />
-    <GetOneContato />
-    <DeleteContato />
+    <!-- <GetOneContato /> -->
+    <!-- <DeleteContato /> -->
   </div>
 </template>
 
