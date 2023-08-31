@@ -17,7 +17,7 @@ public class Contato {
     // private static final long serialVersionUID = 1L;
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private UUID id;
 
     @NotNull
